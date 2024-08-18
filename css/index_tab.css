@@ -1,0 +1,414 @@
+@media (min-width:769px) and (max-width:1024px){
+
+@font-face{
+    font-family: "myfont";
+    src: url("../font/Milker.otf");
+}
+
+@font-face{
+    font-family: "mermaid";
+    src: url("../font/Mermaid1001.ttf");
+}
+
+
+
+.all{
+    width: 100%;
+    height: 100vh;
+    /* background: blue; */
+    color: #0136DE;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+
+.page1{
+    width: 100%;
+    padding-bottom: 16%;
+    background: url("../img/main_bg.jpg") no-repeat 50% 50% / cover;
+}
+.main_name{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #0136DE;
+    font-size:90px;
+    font-family: "myfont";
+    padding-top: 14.5%;
+    margin-left: 13%;
+}
+.portfolio{
+    color: #0136DE;
+    font-family: "myfont";
+    font-size: 90px;
+    margin-left: 30%;
+}
+
+.page2{
+    width: 100%;
+    padding-bottom: 8%;
+    /* background: url(../img/bg.jpg) no-repeat 9.5% 50% / cover; */
+    /* border: 2px solid black;*/
+}
+.a{
+    /* border: 1px solid red; */
+}
+.profile{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #0136DE;
+    font-size:110px;
+    font-family: "myfont";
+    margin-left: 13%;
+}
+.desc{
+    color: #0136DE;
+    margin-left: 13%;
+    font-size: 30px;
+}
+.desc b{
+    text-decoration:underline;
+    font-weight: 600;
+}
+
+.inner_content_all{
+    width:100%;
+    display: flex;
+    margin-top: 10%;
+}
+
+.inner_content_a{
+    /* border: 1px solid red; */
+    margin-left: 6%;
+    width: 45%;
+}
+.b{
+    /* border: 1px solid blue; */
+}
+.b_sub{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.b_sub img{
+    width: 65%;
+}
+.dl_group{
+    border-bottom: 1px solid #0136DE;
+    width: 65%;
+    margin: 0 auto;
+    padding: 6%;
+}
+
+.dtdd{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-between;
+}
+.dl_group dt{
+    /* border: 1px solid orange; */
+    font-size: 20px;
+    font-weight: 700;
+}
+.dl_group dd{
+    /* border: 1px solid hotpink; */
+    font-size: 17px;
+}
+
+.c{
+    /* border: 1px solid blue; */
+    width: 65%;
+    margin: 0 auto;
+}
+.certificate{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+.c ul li{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.c_1{
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+.inner_content_b{
+    /* border: 1px solid red; */
+    width: 39%;
+    margin-top: 5%;
+}
+
+.d{
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+.d_1{
+    border-bottom: 1px solid #0136DE;
+    padding-bottom: 7%;
+}
+.education{
+    font-size: 20px;
+    font-weight: 700;
+}
+.subb{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 2%;
+
+}
+.circle{
+    width: 4%;
+    height: 19px;
+    border: 1px solid #0136DE;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.date{
+    font-size: 18px;
+    margin-left: 3%;
+}
+.what{
+    font-size: 18px;
+    margin-left: 10%;
+    word-break: keep-all;
+}
+
+
+
+.e{
+
+}
+.e img{
+    width: 10%;
+}
+.skill{
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom: 9%;
+    margin-top: 6%;
+}
+.skill_group{
+    /* border: 2px solid green; */
+    width:100%;
+}
+.skill_group li{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 7%;
+    align-items: center;
+}
+.skill_group li:last-of-type{
+    margin-bottom: none;
+}
+.lv{
+    font-size: 19px;
+}
+
+
+
+
+
+.page3{
+    width: 100%;
+    background:#0136DE;
+    padding-bottom: 10%;
+    /* border: 2px solid red; */
+    color: #fff;
+}
+.about_me{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    font-family: "myfont";
+    font-size: 110px;
+    padding-top: 8.5%;
+    margin-left: 10%;
+}
+.three_things{
+    /* border: 1px solid lime; */
+    width: 81%;
+    margin: 0 auto;
+    padding-top: 6%;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.page3_desc{
+    font-size: 25px;
+    word-break: keep-all;
+}
+.page3_desc br{
+    display: none;
+}
+.three_things section{
+    margin-bottom: 8%;
+}
+.three_things section:last-of-type{
+    margin-bottom: none;
+}
+
+
+
+
+.page4{
+    width: 100%;
+    /* padding-bottom: 15%; */
+    color: black;
+}
+.works{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #000;
+    font-family: "myfont";
+    margin-left: 13%;
+    font-size: 110px;
+    padding-top: 7%;
+}
+.page4 img{
+    width: 55%;
+}
+.inner_content_4{
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-bottom: 20%;
+}
+
+.pg4_group{
+    display: flex;
+    border-bottom: 2px solid black;
+    margin: 1%;
+}
+.pg4_group:last-of-type{
+    border-bottom:none;
+}
+.pg4_group section{
+    text-align:center;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pro1{
+    font-size: 38px;
+    font-weight: 550;
+}
+.pro1_desc{
+    font-size: 23px;
+    word-break: keep-all;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+.pro1_desc br{
+    display: none;
+}
+.btn{
+    border: 2px solid black;
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 550;
+    background: transparent;
+    transition: all 0.2s ease 0s;
+    margin-bottom: 5%;
+}
+.btn:hover{
+    border:none;
+    background:#0136DE;
+    color:#fff;
+}
+
+
+
+.page5{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.blue_box{
+    background: #0136DE;
+    color: #fff;
+    width: 70%;
+    height: 100%;
+    font-size: 21px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-direction: column;
+}
+.blue_box br{
+    /* display: none; */
+}
+.blue_box span{
+    font-size: 60px;
+    font-family: "mermaid";
+}
+.blue_box p{
+    margin-bottom:5%;
+}
+.blue_box p:last-of-type{
+    margin-bottom: none;
+}
+
+.bottom{
+    /* border: 2px solid lime; */
+    width: 50%;
+    /* padding-top: 30%; */
+}
+.bottom img{
+    width: 18%;
+}
+.inner_content_bot{
+    padding-left: 21%;
+    margin-top: 245%;
+}
+.design{
+    /* border: 1px solid red; */
+    width:100%;
+    margin-bottom: 5%;
+}
+.design_title{
+    font-size: 30px;
+    font-weight: 650;
+}
+.design_sub{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.contact{
+
+}
+.con_title{
+    font-size: 30px;
+    font-weight: 650;
+}
+.con_1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.con_2{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+
+    
+}
