@@ -31,20 +31,20 @@
     -webkit-text-stroke: 2px #0136DE;
     font-size:150px;
     font-family: "myfont";
-    padding-top: 14.5%;
+    padding-top: 2.5%;
     margin-left: 13%;
 }
 .portfolio{
     color: #0136DE;
     font-family: "myfont";
     font-size: 150px;
-    margin-left: 30%;
+    margin-left: 13%;
 }
 
 .page2{
     width: 100%;
     /* padding-bottom: 8%; */
-    background: url(../img/bg.jpg) no-repeat 9.5% 50% / cover;
+    /* background: url(../img/bg.jpg) no-repeat 9.5% 50% / cover; */
     /* border: 2px solid black;*/
 }
 .a{
@@ -309,7 +309,7 @@
 }
 .btn{
     border: 2px solid black;
-    width: 20%;
+    width: 40%;
     height: 50px;
     font-size: 18px;
     font-weight: 550;
